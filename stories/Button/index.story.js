@@ -12,7 +12,7 @@ import { FlatButton } from '../../src/Button';
 storiesOf('Buttons', module)
   .addDecorator(withKnobs)
   .addDecorator(withDocs(ButtonMD))
-  .addDecorator(withNotes('The best FlatButtom'))
+  .addDecorator(withNotes('Button estilizado com Material-UI a partir do ThemeProvider'))
   .add('FlatButton', () => (
     <FlatButton
       onClick={action('clicked')}

@@ -37,27 +37,35 @@ export const palette = {
     A900: '#1D1C29',
     A1000: '#111119',
   },
+  white: {
+    primary: '#FFFFFF',
+  },
 }
+
+export const themeName = 'Avec Theme';
 
 export default {
   palette: {
     primary: {
-      // light: palette.primary[300],
-      // main: palette.primary[500],
-      // dark: palette.primary[700],
-      // contrastText: getContrastText(palette.primary[500]),
+      light: palette.purple.A300,
+      main: palette.purple.A600,
+      dark: palette.purple.A1000,
+      contrastText: palette.white.primary,
     },
+    /** 
+      * TODO: Acertar as cores
+    */
     secondary: {
-      // light: palette.secondary.A200,
-      // main: palette.secondary.A400,
-      // dark: palette.secondary.A700,
-      // contrastText: getContrastText(palette.secondary.A400),
+      light: palette.purple.A300,
+      main: palette.purple.A600,
+      dark: palette.purple.A1000,
+      contrastText: palette.white.primary,
     },
     error: {
-      // light: palette.error[300],
-      // main: palette.error[500],
-      // dark: palette.error[700],
-      // contrastText: getContrastText(palette.error[500]),
+      light: palette.purple.A300,
+      main: palette.purple.A600,
+      dark: palette.purple.A1000,
+      contrastText: palette.white.primary,
     },
   },
 }
