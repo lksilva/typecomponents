@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.1",
+    "@material-ui/styles": "^3.0.0-alpha.9",
     "@types/jest": "23.3.13",
     "@types/node": "10.12.18",
     "@types/react-dates": "^17.1.5",
