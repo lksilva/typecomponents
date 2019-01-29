@@ -5,10 +5,11 @@
   "dependencies": {
     "@material-ui/core": "^3.9.1",
     "@material-ui/styles": "^3.0.0-alpha.9",
-    "@types/jest": "23.3.13",
+    "@types/jest": "^23.3.13",
     "@types/node": "10.12.18",
     "@types/react-dates": "^17.1.5",
     "@types/react-dom": "16.0.11",
+    "@types/storybook__addon-actions": "^3.4.1",
     "moment": "^2.24.0",
     "react": "^16.7.0",
     "react-dates": "^18.4.1",
@@ -37,13 +38,25 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-info": "^4.1.11",
     "@storybook/addon-knobs": "^4.1.11",
     "@storybook/addon-links": "^4.1.11",
     "@storybook/addon-notes": "^4.1.11",
     "@storybook/addons": "^4.1.11",
     "@storybook/react": "^4.1.11",
     "@types/react": "^16.7.20",
+    "@types/storybook-addon-jsx": "^5.4.1",
+    "@types/storybook__addon-info": "^3.4.2",
+    "@types/storybook__addon-knobs": "^4.0.0",
+    "@types/storybook__react": "^4.0.0",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.5",
-    "storybook-readme": "^4.0.5"
+    "jest": "^24.0.0",
+    "react-docgen-typescript-loader": "^3.0.1",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "storybook-addon-jsx": "^6.0.0",
+    "storybook-readme": "^4.0.5",
+    "ts-jest": "^23.10.5",
+    "ts-loader": "^5.3.3"
   }
 }
