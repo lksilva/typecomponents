@@ -10,15 +10,11 @@ import { FlatButton } from 'elements';
 
 ### Properties
 
-* `onClick` - click callback
-* `label` - button text
-* `disabled` - boolean properties
-
-| propName | propType | defaultValue | isRequired |
-| -------- | -------- | ------------ | ---------- |
-| onClick  | func     | -            |            |
-| label    | string   | -            | true       |
-| disabled | boolean  | false        | false      | 
+| propName        | propType              | defaultValue | isRequired |
+| --------        | --------              | ------------ | ---------- |
+| onClick         | MouseEventHandler     | -            |            |
+| children        | React.ReactNode       | -            | true       |
+| disabled        | boolean               | false        | false      | 
 
 ### Roadmap
 
