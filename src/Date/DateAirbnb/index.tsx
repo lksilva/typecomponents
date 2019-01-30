@@ -13,6 +13,14 @@ export class DatePicker extends Component {
     startDate: null,
   };
 
+  // public setDate = (startDate: moment.Moment | null, endDate: moment.Moment | null) => {
+  //   this.setState({ startDate, endDate });
+  // }
+
+  // public setFocus = (focusedInput: any) => {
+  //   this.setState({ focusedInput });
+  // }
+
   public render() {
     return (
       <DateRangePicker
@@ -20,9 +28,7 @@ export class DatePicker extends Component {
         startDateId="your_unique_start_date_id"
         endDate={this.state.endDate}
         endDateId="your_unique_end_date_id"
-        onDatesChange={({ startDate, endDate }) =>
-          this.setState({ startDate, endDate })
-        }
+        onDatesChange={(startDate, endDate) => this.setState({ startDate, endDate })}
         focusedInput={this.state.focusedInput}
         onFocusChange={(focusedInput) => this.setState({ focusedInput })}
       />

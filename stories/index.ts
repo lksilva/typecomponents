@@ -4,8 +4,8 @@
  * A ordem dos imports refletem no sidebar
  */
 
-// 1. Buttons
-import "./Button/index.story"; // 1.0 Standard
+// 0. Welcome
+import "./Welcome/index.story";
 
-// 2.DatePicker
-import "./DatePicker/index.story";
+// 1. Buttons
+import "./Button/index.story";

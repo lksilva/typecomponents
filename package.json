@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -58,6 +59,7 @@
     "storybook-readme": "^4.0.5",
     "ts-jest": "^23.10.5",
     "ts-loader": "^5.3.3",
-    "tslint": "^5.12.1"
+    "tslint": "^5.12.1",
+    "tslint-react": "^3.6.0"
   }
 }
