@@ -1,7 +1,10 @@
 {
   "name": "typescripcomponents",
-  "version": "0.1.0",
+  "description": "UI lib de componentes do ERP Avec",
+  "version": "1.0.0",
   "private": true,
+  "main": "build/index.js",
+  "author": "Lucas Silva",
   "dependencies": {
     "@material-ui/core": "^3.9.1",
     "@material-ui/styles": "^3.0.0-alpha.9",

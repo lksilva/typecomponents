@@ -23,7 +23,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Default")}
+            {text("default", "Default")}
           </Button>
         </div>
         <div style={{ width: "30%" }}>
@@ -32,7 +32,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Default Contained")}
+            {text("default-container", "Default Contained")}
           </Button>
         </div>
         <div style={{ width: "30%" }}>
@@ -41,7 +41,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Default Outlined")}
+            {text("default-outlined", "Default Outlined")}
           </Button>
         </div>
       </div>
@@ -59,7 +59,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Primary")}
+            {text("primary", "Primary")}
           </Button>
         </div>
         <div style={{ width: "30%" }}>
@@ -69,7 +69,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Primary Contained")}
+            {text("primary-contained", "Primary Contained")}
           </Button>
         </div>
         <div style={{ width: "30%" }}>
@@ -79,7 +79,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Primary Outlined")}
+            {text("primary-outlined", "Primary Outlined")}
           </Button>
         </div>
       </div>
@@ -97,7 +97,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Secondary")}
+            {text("secondary", "Secondary")}
           </Button>
         </div>
         <div style={{ width: "30%" }}>
@@ -107,7 +107,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Secondary Contained")}
+            {text("secondary-contained", "Secondary Contained")}
           </Button>
         </div>
         <div style={{ width: "30%" }}>
@@ -117,7 +117,7 @@ storiesOf("Buttons", module)
             onClick={action("clicked")}
             disabled={boolean("Disabled", false)}
           >
-            {text("Label", "Secondary Outlined")}
+            {text("secondary-outlined", "Secondary Outlined")}
           </Button>
         </div>
       </div>

@@ -14,9 +14,9 @@ const styles = {
   },
 };
 
-const HigherOrderComponent = (props: any) => {
+const HOCButton = (props: any) => {
   const { classes } = props;
   return <Button className={classes.root}>Higher-order component</Button>;
 };
 
-export default withStyles(styles)(HigherOrderComponent);
+export default withStyles(styles)(HOCButton);
