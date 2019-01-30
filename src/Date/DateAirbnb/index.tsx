@@ -1,30 +1,30 @@
+import moment from "moment";
 import React, { Component } from "react";
 import { DateRangePicker } from "react-dates";
-import moment from 'moment';
 import "react-dates/initialize";
-import 'react-dates/lib/css/_datepicker.css';
+import "react-dates/lib/css/_datepicker.css";
 
-moment.locale('pt-br');
+moment.locale("pt-br");
 
 export class DatePicker extends Component {
-  state = {
-    startDate: null,
+  public state = {
     endDate: null,
     focusedInput: null,
-  }
+    startDate: null,
+  };
 
-  render() {
+  public render() {
     return (
       <DateRangePicker
-        startDate={this.state.startDate} // momentPropTypes.momentObj or null,
-        startDateId="your_unique_start_date_id" // PropTypes.string.isRequired,
-        endDate={this.state.endDate} // momentPropTypes.momentObj or null,
-        endDateId="your_unique_end_date_id" // PropTypes.string.isRequired,
+        startDate={this.state.startDate}
+        startDateId="your_unique_start_date_id"
+        endDate={this.state.endDate}
+        endDateId="your_unique_end_date_id"
         onDatesChange={({ startDate, endDate }) =>
           this.setState({ startDate, endDate })
         }
-        focusedInput={this.state.focusedInput} // PropTypes.oneOf([START_DATE, END_DATE]) or null,
-        onFocusChange={focusedInput => this.setState({ focusedInput })} // PropTypes.func.isRequired,
+        focusedInput={this.state.focusedInput}
+        onFocusChange={(focusedInput) => this.setState({ focusedInput })}
       />
     );
   }

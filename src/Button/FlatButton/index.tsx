@@ -1,8 +1,8 @@
-import React, { MouseEventHandler } from 'react';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+import Button from "@material-ui/core/Button";
+import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
+import React, { MouseEventHandler } from "react";
 
-import theme from '../../theme';
+import theme from "../../theme";
 
 const providerTheme = createMuiTheme(theme);
 
@@ -25,5 +25,5 @@ export const FlatButton = (props: IFlatButtonProps) => {
         {children}
       </Button>
     </MuiThemeProvider>
-  )
-}
+  );
+};
