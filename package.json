@@ -1,5 +1,5 @@
 {
-  "name": "typescripcomponents",
+  "name": "@lksilva/typescripcomponents",
   "description": "UI lib de componentes do ERP Avec",
   "version": "1.0.0",
   "private": false,
@@ -67,5 +67,17 @@
     "tslint": "^5.12.1",
     "tslint-react": "^3.6.0",
     "webpack-cli": "^3.2.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lksilva/typecomponents.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lksilva/typecomponents/issues"
+  },
+  "homepage": "https://github.com/lksilva/typecomponents#readme"
 }
